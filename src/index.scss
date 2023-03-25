@@ -1,0 +1,22 @@
+@import-normalize;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500&display=swap');
+
+@import "./assets/scss/colors.scss";
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background-color: $secondary;
+  height: 100vh;
+}
+
+#root{
+  display: flex;
+  height: 100%;
+}

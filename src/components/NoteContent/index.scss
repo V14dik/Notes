@@ -1,0 +1,33 @@
+@import "../../assets/scss/colors.scss";
+
+
+.note-edit {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+
+    background-color: $white;
+    border-radius: 15px;
+    border: 2px solid $white;
+    padding: 10px;
+    
+    flex: 60% 0 0;
+    display: flex;
+
+    textarea {
+        padding: 10px;
+        background-color: $white;
+        border-radius: 15px;
+        border: 2px solid $primary;
+        overflow: auto;
+        resize: none;
+        font-size: 16px;
+        line-height: 2.5;
+        outline: none;
+    }
+    
+    .tags {
+        height: 10%;
+    }
+}
